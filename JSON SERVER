@@ -1,0 +1,7 @@
+npm install -g json-server
+json-server --watch .\Data\db.json ---port 8000
+
+
+Step2 
+to run the json server => 
+npm run start-json-server
