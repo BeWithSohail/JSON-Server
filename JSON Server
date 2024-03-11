@@ -1,0 +1,73 @@
+Step1
+npm install -g json-server
+json-server --watch .\Data\db.json ---port 8000
+
+Step2 
+to run the json server => 
+npm run start-json-server
+
+Step3
+Creae a folder called data and inside this add the folder of db.json 
+db.json file would look something like this 
+
+{
+  "notes": [
+    {
+      "title": "yoshi's borthday",
+      "details": "testing1",
+      "catogory": "reminders",
+      "id": 1
+    },
+    {
+      "title": "yoshi's borthday2",
+      "details": "testing2",
+      "catogory": "reminders2",
+      "id": 2
+    },
+    {
+      "title": "yoshi's borthday3",
+      "details": "testing3",
+      "catogory": "reminders3",
+      "id": 3
+    },
+    {
+      "id": "5299",
+      "title": "sohail",
+      "details": "testing dev server ",
+      "category": "ToDos"
+    },
+    {
+      "id": "85b5",
+      "title": "sohail",
+      "details": "testing dev server dfdfdf",
+      "category": "ToDos"
+    },
+    {
+      "id": "923a",
+      "title": "adil s birthday today ",
+      "details": "adil is a goof boy ",
+      "category": "Reminders"
+    },
+    {
+      "id": "aa69",
+      "title": "sohail's birthday today",
+      "details": "hey this is sohail alam ",
+      "category": "Reminders"
+    },
+    {
+      "id": "5e72",
+      "title": "sohail birthday2",
+      "details": "sohail is fine now ",
+      "category": "Work"
+    },
+    {
+      "id": "7197",
+      "title": "testing API'S",
+      "details": "TESTING APIS DETAILS",
+      "catogory": "REMINDER OF TESTING APIS"
+    }
+  ]
+}
+
+
+
